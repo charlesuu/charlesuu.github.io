@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'IBMPlexSansKR-Regular';
+    background-color: #F2E8DC;
+}
+
+.frame {
+    display: flex;
+    margin: 30px 120px;
+    flex-direction: column;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+.site-name {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Recipekorea';
+    color: #D9CCC1;
+    text-shadow: -2px 0 #272425, 0 2px #272425, 2px 0 #272425, 0 -2px #272425;
+}
+
+.nav_menu {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a {
+    color: #272425;
+    text-decoration: none;
+}
+
+.nav_menu:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.info {
+    margin-top: 80px;
+}
+
+.comment {
+    font-weight: 100;
+}
+
+.potato {
+    color: #818181;
+}
+
+.footer {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    border-top: #818181 solid 1px;
+    align-items: center;
+}
+
+.contact {
+    font-size: 35px;
+    color: #595047;
+    margin-bottom: 10px;
+}
+
+.links>a {
+    font-size: 30px;
+    color: #595047;
+    margin-right: 10px;
+}
+
+.links>a:hover {
+    color: #638896;
+}
+
+
+.profile {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#profile-img {
+    width: 450px;
+    margin-right: 80px;
+}
+
+.introduction {
+    font-size: 22px;
+}
+
+.name {
+    font-weight: 1000;
+    font-size: 36px;
+}
