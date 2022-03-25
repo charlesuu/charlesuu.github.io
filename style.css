@@ -1,27 +1,7 @@
-@font-face {
-    font-family: 'S-CoreDream-4Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recipekorea';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IBMPlexSansKR-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     font-family: 'IBMPlexSansKR-Regular';
-    background-color: #F2E8DC;
+    background-color: rgb(55, 60, 63);
+    color: #ffffff;
 }
 
 .frame {
@@ -51,13 +31,15 @@ ul {
 
 .site-name {
     margin: 0;
-    font-size: 30px;
-    font-family: 'Recipekorea';
+    font-size: 60px;
+    font-family: 'Palette Mosaic', cursive;
+    
     color: #D9CCC1;
     text-shadow: -2px 0 #272425, 0 2px #272425, 2px 0 #272425, 0 -2px #272425;
 }
 
 .nav_menu {
+    color: #D9CCC1;
     font-weight: 600;
     font-size: 18px;
 }
@@ -78,9 +60,10 @@ a {
 
 .comment {
     font-weight: 100;
+    
 }
 
-.potato {
+.fighting {
     color: #818181;
 }
 
@@ -113,7 +96,7 @@ a {
     margin-top: 120px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
 }
 
@@ -125,8 +108,32 @@ a {
 .introduction {
     font-size: 22px;
 }
+.intro-comment2 {
+    font-size: 18px;
+    line-height: 200%;
+}
 
 .name {
     font-weight: 1000;
     font-size: 36px;
+    color: rgb(255, 217, 102);
 }
+progress {
+    width: 1000px;
+    height: 20px;
+    color: rgb(255, 217, 102);
+    -webkit-appearance: none;
+    appearance: none;
+ }
+ progress::-webkit-progress-bar {
+    background-color: gray;
+ }
+ progress::-webkit-progress-value {
+    background-color: rgb(255, 217, 102);
+ }
+ .comment2{
+     font-size: 20px;
+ }
+ #blog-link{
+    color: beige;
+ }
